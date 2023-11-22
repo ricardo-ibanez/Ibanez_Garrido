@@ -23,6 +23,7 @@ public class AlumnoCRUD {
         }
     }
 
+
     public void bajaAlumno(String dni) {
         ArrayList<Alumno> listaAlumno = leerAlumnos();
         for (int i = 0; i < listaAlumno.size(); i++) {
